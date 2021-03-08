@@ -2,8 +2,10 @@
 #pragma once
 
 //#define USE_MATRIX_I2C
-
-
+// The pin connected to the data pin of the LEDs
+#define RGB_DI_PIN D3
+// The number of LEDs connected
+#define DRIVER_LED_TOTAL 12
 
 /* Select hand configuration */
 
@@ -12,8 +14,8 @@
 // #define EE_HANDS
 
 // #define SSD1306OLED
-#undef USE_I2C
-#undef SSD1306OLED
+//#undef USE_I2C
+//#undef SSD1306OLED
 
 #define USE_SERIAL_PD2
 
@@ -22,7 +24,7 @@
 //#define RETRO_TAPPING
 #define IGNORE_MOD_TAP_INTERRUPT
 
-#define OLED_FONT_H "keyboards/crkbd/keymaps/soundmonster/glcdfont.c"
+//#define OLED_FONT_H "keyboards/crkbd/keymaps/soundmonster/glcdfont.c"
 // #define OLED_FONT_WIDTH 5
 // #define OLED_FONT_HEIGHT 7
 
