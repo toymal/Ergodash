@@ -3,7 +3,7 @@
 
 //#define USE_MATRIX_I2C
 // The pin connected to the data pin of the LEDs
-#define RGB_DI_PIN D3
+#define RGB_DI_PIN D1
 // The number of LEDs connected
 #define DRIVER_LED_TOTAL 12
 
