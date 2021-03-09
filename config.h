@@ -3,10 +3,10 @@
 
 //#define USE_MATRIX_I2C
 // The pin connected to the data pin of the LEDs
-#define RGB_DI_PIN D1
+//#define RGB_DI_PIN D3
 // The number of LEDs connected
-#define DRIVER_LED_TOTAL 12
-
+#define DRIVER_LED_TOTAL 24
+//#define RGBLED_SPLIT  {12, 12}
 /* Select hand configuration */
 
 //#define MASTER_LEFT
@@ -20,7 +20,7 @@
 #define USE_SERIAL_PD2
 
 // #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 120
+#define TAPPING_TERM 200
 //#define RETRO_TAPPING
 #define IGNORE_MOD_TAP_INTERRUPT
 
